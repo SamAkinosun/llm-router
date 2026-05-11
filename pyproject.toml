@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-router"
+version = "0.1.0"
+description = "Route prompts to the cheapest Claude model that should handle them well, with measurable cost savings vs always-Opus."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Sam Akinosun" }]
+keywords = ["llm", "anthropic", "claude", "routing", "cost", "ml", "classifier"]
+classifiers = [
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "scikit-learn>=1.3",
+    "numpy>=1.24",
+]
+
+[project.urls]
+Homepage = "https://github.com/SamAkinosun/llm-router"
+Issues = "https://github.com/SamAkinosun/llm-router/issues"
+
+[project.scripts]
+llm-router = "llm_router.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+llm_router = ["py.typed"]
