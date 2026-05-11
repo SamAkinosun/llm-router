@@ -72,7 +72,10 @@ def cmd_bench(args) -> int:
 
 
 def build_parser() -> argparse.ArgumentParser:
+    from . import __version__
+
     p = argparse.ArgumentParser(prog="llm-router", description="Route prompts to the cheapest viable model.")
+    p.add_argument("--version", action="version", version=f"llm-router {__version__}")
     sub = p.add_subparsers(dest="cmd", required=True)
 
     p_train = sub.add_parser("train", help="train the complexity classifier")
