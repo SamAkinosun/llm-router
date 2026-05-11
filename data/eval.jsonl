@@ -1,0 +1,30 @@
+{"prompt": "What is the capital of Brazil?", "label": "simple"}
+{"prompt": "Translate 'thank you' to French", "label": "simple"}
+{"prompt": "Who painted the Mona Lisa?", "label": "simple"}
+{"prompt": "How many bones are in the adult human body?", "label": "simple"}
+{"prompt": "What is the freezing point of water in Fahrenheit?", "label": "simple"}
+{"prompt": "Define osmosis briefly", "label": "simple"}
+{"prompt": "What is the chemical formula for water?", "label": "simple"}
+{"prompt": "What is the population of Iceland (approximately)?", "label": "simple"}
+{"prompt": "List the colors of the rainbow", "label": "simple"}
+{"prompt": "Hello, what's your name?", "label": "simple"}
+{"prompt": "Write a Python function to check if a string is a palindrome", "label": "medium"}
+{"prompt": "Explain how JWT tokens work and when to use them", "label": "medium"}
+{"prompt": "Compare React and Vue for a small team project", "label": "medium"}
+{"prompt": "Help me write a SQL query that joins users and orders to get monthly revenue per user", "label": "medium"}
+{"prompt": "What are the differences between TCP and UDP?", "label": "medium"}
+{"prompt": "Refactor this loop to use map and filter instead", "label": "medium"}
+{"prompt": "Write a regex to validate a US phone number", "label": "medium"}
+{"prompt": "Explain how garbage collection works in Python", "label": "medium"}
+{"prompt": "What's the difference between a process and a thread?", "label": "medium"}
+{"prompt": "Walk me through setting up CI for a Node project", "label": "medium"}
+{"prompt": "Design a globally distributed counter that supports billions of increments per day with eventual consistency. Walk through how you would handle the inevitable hot keys, what guarantees you can offer to clients, and how the system degrades under network partitions across regions. Include monitoring strategy.", "label": "complex"}
+{"prompt": "Architect a real-time fraud detection pipeline for a payment processor handling $10B annually. Cover feature engineering across multiple data sources, online versus offline scoring, the trade-offs of different model families for low-latency serving, feedback loops, and how you would evaluate the system without leaking labels.", "label": "complex"}
+{"prompt": "Walk through the proof of the Cook-Levin theorem in detail. Discuss the historical significance and the implications for theoretical computer science. Then connect this to practical implications for problem solving today.", "label": "complex"}
+{"prompt": "Design and implement a complete distributed task queue with at-least-once delivery, deduplication windows, priority lanes, fair scheduling across tenants, and graceful node shutdown. Compare your approach to existing systems like Celery, Sidekiq, and SQS, and justify the trade-offs.", "label": "complex"}
+{"prompt": "Implement a database query optimizer for a small SQL engine. Cover predicate push-down, join reordering, cardinality estimation, and adaptive execution. Discuss when a cost-based optimizer is preferable to a rule-based one and the operational implications of bad cardinality estimates.", "label": "complex"}
+{"prompt": "Architect a search system that indexes 100 billion documents and serves 100k QPS with sub-100ms p99 latency. Cover sharding strategy, query routing, replication, freshness guarantees, the trade-offs of inverted indexes versus vector search, and how the system handles long-tail queries.", "label": "complex"}
+{"prompt": "Analyze the trade-offs of building an in-memory database versus extending a disk-based one. Cover durability strategies, recovery time, the impact on throughput and latency under varying read/write ratios, and the operational complexity of running each at scale.", "label": "complex"}
+{"prompt": "Design a system to detect anomalies in time-series telemetry from 10 million IoT devices. Address the trade-offs of model-per-device versus shared models, how to handle concept drift, the cost of false positives, and how to build a feedback loop with operators without overwhelming them with noise.", "label": "complex"}
+{"prompt": "Write a complete implementation of consistent hashing with virtual nodes in Go. Cover insertion and removal cost, lookup performance, the impact of virtual node count on load balance, and reason about how the data structure behaves under failure scenarios.", "label": "complex"}
+{"prompt": "Architect an analytics pipeline that ingests 50TB of clickstream data per day and serves dashboards with sub-second query latency over the last 30 days. Address ingestion guarantees, schema evolution, columnar storage trade-offs, and how the system handles late-arriving events.", "label": "complex"}

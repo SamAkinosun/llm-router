@@ -1,0 +1,60 @@
+{"prompt": "What is the capital of Japan?", "label": "simple"}
+{"prompt": "Translate 'good morning' to Spanish", "label": "simple"}
+{"prompt": "Define photosynthesis in one sentence", "label": "simple"}
+{"prompt": "Who wrote Hamlet?", "label": "simple"}
+{"prompt": "What year did World War 2 end?", "label": "simple"}
+{"prompt": "How many planets are in our solar system?", "label": "simple"}
+{"prompt": "What does HTTP stand for?", "label": "simple"}
+{"prompt": "Hello, how are you today?", "label": "simple"}
+{"prompt": "What is 17 times 23?", "label": "simple"}
+{"prompt": "Spell the word 'accommodate'", "label": "simple"}
+{"prompt": "Name three primary colors", "label": "simple"}
+{"prompt": "What is the boiling point of water in Celsius?", "label": "simple"}
+{"prompt": "List the days of the week starting from Monday", "label": "simple"}
+{"prompt": "What is the speed of light in m/s?", "label": "simple"}
+{"prompt": "What is the largest country by area?", "label": "simple"}
+{"prompt": "Translate 'thank you' to Mandarin", "label": "simple"}
+{"prompt": "What is the chemical symbol for gold?", "label": "simple"}
+{"prompt": "How many continents are there?", "label": "simple"}
+{"prompt": "What is the longest river in the world?", "label": "simple"}
+{"prompt": "Define mitosis briefly", "label": "simple"}
+{"prompt": "Summarize the main points of cognitive behavioral therapy", "label": "medium"}
+{"prompt": "Write a Python function that returns the nth Fibonacci number using memoization", "label": "medium"}
+{"prompt": "Compare PostgreSQL and MySQL for a small startup", "label": "medium"}
+{"prompt": "Explain how OAuth 2.0 works at a high level", "label": "medium"}
+{"prompt": "Write a SQL query to find the top 10 customers by total purchase amount", "label": "medium"}
+{"prompt": "What are the differences between supervised and unsupervised learning?", "label": "medium"}
+{"prompt": "Help me debug this code, it returns the wrong sum: ```def add(a, b): return a - b```", "label": "medium"}
+{"prompt": "Explain the difference between REST and GraphQL APIs", "label": "medium"}
+{"prompt": "Write a regex to match email addresses with reasonable precision", "label": "medium"}
+{"prompt": "How does the React useEffect hook work and when does it run?", "label": "medium"}
+{"prompt": "Create a docker-compose file for a Node web app and Postgres database", "label": "medium"}
+{"prompt": "What are common causes of memory leaks in Python applications?", "label": "medium"}
+{"prompt": "Explain how a hash table works internally", "label": "medium"}
+{"prompt": "Refactor this function to use a list comprehension instead of an explicit loop", "label": "medium"}
+{"prompt": "Write a unit test for a function that validates email addresses", "label": "medium"}
+{"prompt": "What is the time complexity of mergesort and why?", "label": "medium"}
+{"prompt": "How do I make an HTTP POST request in Go with JSON body?", "label": "medium"}
+{"prompt": "Compare SVM and random forest classifiers for a tabular dataset", "label": "medium"}
+{"prompt": "Why might my React component re-render on every keystroke?", "label": "medium"}
+{"prompt": "Explain CORS in plain language for a junior engineer", "label": "medium"}
+{"prompt": "Design a distributed cache with consistent hashing, explain the trade-offs of replication factor, virtual nodes, and how rebalancing works during node addition and removal. Include failure modes and how the system reacts to network partitions.", "label": "complex"}
+{"prompt": "Analyze the implications of a 100-millisecond increase in p99 API latency on a high-frequency trading platform that handles 50,000 orders per second. Walk through cascading effects on market making, order book staleness, and execution quality. Propose mitigations and quantify expected dollar impact under reasonable assumptions.", "label": "complex"}
+{"prompt": "Prove rigorously that the sum of the first n odd numbers equals n squared. Then generalize the result to other arithmetic series and discuss the algebraic structure that makes this work.", "label": "complex"}
+{"prompt": "Design a system to process 1 million events per second with at-least-once delivery guarantees and exactly-once semantics where possible. Address ordering guarantees, idempotency at the consumer, backpressure, schema evolution, and disaster recovery across regions.", "label": "complex"}
+{"prompt": "Walk me step by step through implementing a custom React reconciler. Cover the priority-based scheduling, fiber data structure, work loop, commit phase, and how concurrent features like Suspense are coordinated across the tree.", "label": "complex"}
+{"prompt": "Write a complete implementation of the Raft consensus algorithm in Go. Include leader election, log replication, persistent state, snapshotting, and configuration changes. Explain the invariants the implementation maintains and how it handles split-brain scenarios.", "label": "complex"}
+{"prompt": "Architect a multi-region deployment for a transactional database with strong consistency. Compare Paxos-based quorum approaches with single-leader-with-followers approaches. Analyze write latency, failover behavior, and the impact of asymmetric network partitions.", "label": "complex"}
+{"prompt": "Derive the equations of motion for a double pendulum from the Lagrangian. Then linearize around the equilibrium, find the normal modes, and discuss the chaotic behavior in the non-linearized regime.", "label": "complex"}
+{"prompt": "Compare and contrast the strategies the EU and US have taken on data privacy regulation over the last decade. Analyze how GDPR, CCPA, and emerging state laws interact, and walk through the implications for a SaaS company operating in both jurisdictions including data residency, breach notification, and AI training data provenance.", "label": "complex"}
+{"prompt": "Design and implement a parser for a small lisp-like language with macros, tail call optimization, and a basic garbage collector. Walk through the AST design, the evaluator, the macro expansion semantics, and the trade-offs between mark-sweep and generational collectors for the workload.", "label": "complex"}
+{"prompt": "Walk through the trade-offs in choosing between event sourcing and a traditional CRUD architecture for a financial system. Cover audit requirements, schema evolution, query performance, and the cost of rebuilding projections at scale.", "label": "complex"}
+{"prompt": "Implement Dijkstra's algorithm with a Fibonacci heap and analyze the asymptotic running time. Compare to a binary heap implementation and discuss when the constant-factor overhead of the Fibonacci heap is justified in practice.", "label": "complex"}
+{"prompt": "Design a recommendation system that handles cold-start users at scale. Compare collaborative filtering, content-based, and hybrid approaches. Address feedback loops, exploration versus exploitation, and how to evaluate the system online without conflating model quality with infrastructure issues.", "label": "complex"}
+{"prompt": "Analyze the security model of a modern blockchain consensus protocol. Identify potential attack vectors involving validator collusion, eclipse attacks, and economic incentives. Propose mitigations and reason about their second-order effects on decentralization.", "label": "complex"}
+{"prompt": "Write a complete machine learning pipeline including data validation, feature engineering, model selection across at least three families, hyperparameter tuning with cross-validation, calibration, and a deployment plan with shadow mode rollout. Justify each choice.", "label": "complex"}
+{"prompt": "Explain the implications of the halting problem for static analysis of programs. Walk through Rice's theorem, then discuss how modern static analyzers manage to be useful in practice despite this fundamental limit.", "label": "complex"}
+{"prompt": "Architect a real-time multiplayer game backend handling 100k concurrent users with anti-cheat. Cover state synchronization, lag compensation, server authority versus client prediction, and a strategy for detecting cheating that scales without false positives.", "label": "complex"}
+{"prompt": "Design a system to detect and respond to DDoS attacks in real time. Cover layer 3 through layer 7 attacks, the trade-offs between in-line and out-of-band mitigation, and how to avoid blocking legitimate users during a sustained attack.", "label": "complex"}
+{"prompt": "Implement a complete OAuth 2.0 authorization server in Python with PKCE support. Cover the authorization code flow, refresh tokens, token introspection, scopes, and the security trade-offs of different token storage strategies.", "label": "complex"}
+{"prompt": "Walk through the design of a transactional key-value store that survives a single-node failure with no data loss. Compare write-ahead logging strategies, fsync semantics across filesystems, and how the system bootstraps replication after a long outage.", "label": "complex"}
